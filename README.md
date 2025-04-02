@@ -129,7 +129,7 @@ In an ideal world, the user agent is not responsible for maintaining font lists 
 
 The goal of limiting local fonts is to reduce information available that can be used to re-identify the user across sites, so we expect this proposal to be privacy-positive. Though limiting font availability to OS-installed fonts can expose the user’s platform and potentially the major version, we accept this because user agent headers already make this information available.
 
-## Contributors and Acknowkedgements
+## Contributors and Acknowledgements
 
 [Antonio Sartori](https://github.com/antosart)
 
