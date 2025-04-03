@@ -110,8 +110,7 @@ While we initially aim to ship in Incognito mode, we are evaluating limiting fon
 
 Does your application specifically need access to user-installed local fonts? If so, consider switching to the [Local Font Access API](https://developer.chrome.com/docs/capabilities/web-apis/local-fonts#the_local_font_access_api) which will always be honored with this proposal. If your use case falls outside this, we would like to consider it, so please file an issue.  
 
-### 
-How will font lists be maintained? 
+### How will font lists be maintained? 
 
 We have decided to focus on Windows and MacOS because font lists are readily available and easier to compile ([macOS](https://support.apple.com/en-us/103197), [Windows](https://learn.microsoft.com/en-us/typography/fonts/windows_10_font_list)). For these platforms, we expect to update the list with each major platform release. Ensuring accurate and up-to-date lists will require collaboration with the platform owners in terms of them continuing to share their lists or opening up access to APIs that reliably expose their lists of default OS-shipped fonts.
 
